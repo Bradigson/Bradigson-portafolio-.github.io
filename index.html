@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PortafolioBN</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="icon" href="imgs/bold.svg">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+        <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+        <script src="js/codigo.js"></script>
+        <script src="https://kit.fontawesome.com/c8eaed1676.js" crossorigin="anonymous"></script>
+    </head>
+  
+        <body>
+            <header class="header1">
+                <nav class="navbar navbar-expand-sm navbar-light ">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opc" style="background:none;border:none;" id="button">
+                        <span class="span" >
+                          <i class='bx bx-menu'></i>
+                        </span>
+      
+                    </button>
+                    
+                    <div class="collapse navbar-collapse" id="opc">
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item">
+                                <a href="#home" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="#about" class="nav-link">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a href="#skills" class="nav-link">My Skills</a>
+                        </li>
+                          <li class="nav-item">
+                              <a href="#service" class="nav-link">Services</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#proyect" class="nav-link">My Proyects</a>
+                          </li>
+                          <li>
+                              <a href="#myhobbies" class="nav-link">My Hobbies</a>
+                          </li>
+                          <li class="nav-item">
+                              <a href="#contact" class="nav-link">Contact</a>
+                          </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <!--Sesion1-->
+            <section class="sesion1" id="home">
+                
+                <img src="imgs/ufo.svg" alt="img-alien-sesion1" id="sesion1__img1">
+                <img src="imgs/planet-earth.svg" alt="img-alien-sesion1" id="sesion1__img2">
+                <img src="imgs/spacecraft.svg" alt="img-spacecraft-sesion1" id="sesion1__img3">
+                <div class="star"></div>
+
+                <div class="sesion__content1">
+                    <h2 class="text-light">
+                        HI THERE!<br>
+                        <span>
+                            I'm Bradigson Nuñez
+                        </span>
+                       a Frontend Developer
+                    </h2>
+                    
+                </div>
+            </section>
+
+            <!--sesion2-->
+            <section class="sesion2" id="about">
+                <article class="sesion1__articulo2">
+                    <h2 class="text-center">About Me</h2>
+                    <hr id="articulo1__hr">
+                    <h3 class="text-center">Who am I?</h3>
+                    <h4>I'm Bradigson Nuñez a Web Developer.</h4>
+                    <p class="text-muted">I am a Front End developer with experience building websites and web applications. I specialize in JavaScript, and have professional experience working with React.<br>
+
+                        I am always seeking to improve my skills to continually grow professionally to be able to contribute consistently to the workgroup with which I am.</p>
+                    <a class="btn btn-outline-primary" href="CVBN.pdf" download="CV" target="_BLANK" id="sesion2__articulo1-a"><i class='bx bx-download'></i> Download My CV</a>
+                </article>
+
+                <!--Articulo2-->
+                <article class="sesion2__articul2" id="skills">
+                    <h2 class="text-center">My skills</h2>
+                    <hr id="articulo2__hr">
+                    <div class="tools">
+                        <div class="tool1"><i class='bx bxl-html5' data-toggle="tooltip" title="html: Hypertext Markup Language"></i><div class="icon-box-name text-danger" id="lg">HTML</div></div>
+
+                        <div class="tool1"><i class='bx bxl-css3' data-toggle="tooltip" title="CSS: Cascading Style Sheets" ></i><div class="icon-box-name text-primary" id="lg">CSS</div></div>
+
+                        <div class="tool1"><i class='bx bxl-bootstrap' data-toggle="tooltip" title="Bootstrap:is a CSS framework used in front-end applications" ></i><div class="icon-box-name text-info" id="lg">BOOTSTRAP</div></div>
+
+                        <div class="tool1"><i class='bx bxs-file-js' data-toggle="tooltip" title="JavaScript: is the only programming language" ></i><div class="icon-box-name text-warning" id="lg">JAVASCRIP</div></div>
+
+                        <div class="tool1"><i class='bx bxl-git' data-toggle="tooltip" title="Git: is a version control system" ></i><div class="icon-box-name text-danger" id="lg">GIT</div></div>
+                    </div>
+                </article>
+
+
+                <!--Articulo3-->
+                <article class="sesion2__articulo3" id="service">
+                    <h2 class="text-center">Services</h2>
+                    <hr id="articulo3__hr">
+
+                    <h3 class="text-center">Services I offer to my clients</h3>
+                    <div class="servicios">
+                        
+
+                        <div class="card text-center" id="servicio1">
+                            <img src="imgs/games.svg"  alt="card1-img" id="carta1">
+                            <div class="card-body">
+                                <div class="card-title"><h3>Fully Responsive</h3></div>
+                                <div class="card-text">
+                                    <p class="text-muted">Your site will display properly on any device, including desktop computers, tablets and mobile phones.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card text-center" id="servicio1">
+                            <img src="imgs/web-design.svg"  alt="card2-img" id="carta1">
+                           <div class="card-body">
+                            <div class="card-title"><h3>Creative Design</h3></div>
+                           <div class="card-text">
+                            <p class="text-muted">A good and attractive web design helps you keep your leads on your site, which is the digital face of your business.</p>
+                           </div>
+                           </div>
+                        </div>
+
+
+                        <div class="card text-center" id="servicio1">
+                            <img src="imgs/web-development.svg"  alt="card3-img" id="carta1">
+                            <div class="card-body">
+                                <div class="card-title"><h3>
+                                    Development</h3></div>
+                               <div class="card-text">
+                                <p class="text-muted">I know the importance of web design and can help you create a website you’ll love.</p>
+                               </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card text-center" id="servicio1">
+                            <img src="imgs/like.svg"  alt="card4-img" id="carta1">
+                           <div class="card-body">
+                               <div class="card-title"><h3>Social Media Integration</h3></div>
+                               <div class="card-text">
+                                
+                                <p class="text-muted">There are a lot of social platforms out there, and you should promote your presence on them on your website.</p>
+                               </div>
+                           </div>
+                        </div>
+
+
+                        <div class="card text-center" id="servicio1">
+                            <img src="imgs/speedometer.svg"  alt="card5-img" id="carta1">
+                           <div class="card-body">
+                               <div class="card-title"><h3>Performance
+                            </h3></div>
+                               <div class="card-text">
+                                <p class="text-muted">Retaining users is crucial to improving conversions. High-performing sites engage and retain users.</p>
+                               </div>
+                           </div>
+                        </div>
+
+
+                        <div class="card text-center" id="servicio1">
+                            <img src="imgs/seo.svg"  alt="card6-img" id="carta1">
+                         <div class="card-body">
+                             <div class="card-title"> <h3>SEO</h3></div>
+                             <div class="card-text">
+                               
+                                <p class="text-muted">I will optimize your site with intelligent Search Engine Optimization strategy to generate leads.
+    
+                                </p>
+                             </div>
+                         </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!--Articulo4-->
+            <article class="sesion2__articulo4" id="proyect">
+                    <h2 class="text-center text-white">My Proyects</h2>
+                    <p class="text-center text-white" id="sesion2__articulo4-p">Here you can see the projects that I have worked on.</p>
+
+                <div class="proyects" >
+                    <div class="proyect" id="proyect1">
+                        <div class="prroyect-hover">
+                            <h2 class="text-white text-center">We Are Paperpillar</h2>
+                            <p class="text-white text-center">Web Aplicattion: HTML, CSS and RESPONSIVE DESIGN</p>
+                           <div class="a">
+                            <a class="btn btn-dark" href="https://proyecto33peperpilla.000webhostapp.com/" target="_BLANK" id="pro__a"><i class='bx bx-world' ></i> WebSide</a>
+                            <a class="btn btn-dark" href="https://github.com/Bradigson/Bradigson-Pagina-Web-33-Peperpillar.git" id="pro__a" target="_BLANK"><i class='bx bxl-github'></i> Repository</a>
+                           </div>
+                        </div>
+                     </div>
+
+                    <div class="proyect" id="proyecto2">
+                        <div class="prroyect-hover">
+                            <h2 class="text-white text-center">Trip Spot</h2>
+                            <p class="text-white text-center">Web Aplicattion: HTML, CSS and RESPONSIVE DESIGN </p>
+                           <div class="a">
+                            <a class="btn btn-dark" href="https://proyect35travel.000webhostapp.com/" target="_BLANK" id="pro__a"><i class='bx bx-world' ></i> WebSide</a>
+                            <a class="btn btn-dark" href="https://github.com/Bradigson/Pagina-web-35-travel.git" target="_BLANK" id="pro__a"><i class='bx bxl-github'></i> Repository</a>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="proyect" id="proyecto3">
+                        <div class="prroyect-hover">
+                            <h2 class="text-white text-center">Web Fishbowl</h2>
+                            <p class="text-white text-center">Web Aplicattion: HTML, CSS and RESPONSIVE DESIGN</p>
+                           <div class="a">
+                            <a class="btn btn-dark" href="https://bnproyect34pecera.000webhostapp.com/" target="_BLANK" id="pro__a"><i class='bx bx-world' ></i> WebSide</a>
+                            <a class="btn btn-dark" href="https://github.com/Bradigson/Proyecto-34-Pecera.git" target="_BLANK" id="pro__a"><i class='bx bxl-github'></i> Repository</a>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="proyect" id="proyecto4">
+                        <div class="prroyect-hover">
+                            <h2 class="text-white text-center">Web form</h2>
+                            <p class="text-white text-center">Web Aplicattion: HTML, CSS, BOOTSTRAP and NOT RESPONSIVE DESIGN</p>
+                           <div class="a">
+                            <a class="btn btn-dark" href="https://bradigson.000webhostapp.com/" target="_BLANK" id="pro__a"><i class='bx bx-world' ></i> WebSide</a>
+                            <a class="btn btn-dark" href="#" id="pro__a"><i class='bx bxl-github'></i> Repository</a>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="proyect" id="proyecto5">
+                        <div class="prroyect-hover">
+                            <h2 class="text-white text-center">Web Calculator</h2>
+                            <p class="text-white text-center">Web Aplicattion: HTML, CSS, BOOTSTRAP, JAVASCRIP and NOT RESPONSIVE DESIGN</p>
+                           <div class="a">
+                            <a class="btn btn-dark" href="https://bradigson.github.io/Proyecto-39-Calculadora-III/" target="_BLANK" id="pro__a"><i class='bx bx-world' ></i> WebSide</a>
+                            <a class="btn btn-dark" href="https://github.com/Bradigson/Proyecto-39-Calculadora-III.git" target="_BLANK" id="pro__a"><i class='bx bxl-github'></i> Repository</a>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="proyect" id="proyecto6">
+                        <div class="prroyect-hover">
+                            <h2 class="text-white text-center" data-toggle="tooltip" title="Exam Code:33124">Web Musical Exam 1</h2>
+                            <p class="text-white text-center">Web Aplicattion: HTML, CSS, BOOTSTRAP, JAVASCRIPT and RESPONSIVE DESIGN </p>
+                           <div class="a">
+                            <a class="btn btn-dark" href="https://musicexambn.000webhostapp.com/" target="_BLANK" id="pro__a"><i class='bx bx-world' ></i> WebSide</a>
+                            <a class="btn btn-dark" href="https://github.com/Bradigson/Examen-Musical.git" target="_BLANK"><i class='bx bxl-github'></i> Repository</a>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="proyect" id="proyecto7">
+                        <div class="prroyect-hover">
+                            <h2 class="text-white text-center" data-toggle="tooltip" title="Exam Code:34212">Web Musical Exam 2</h2>
+                            <p class="text-white text-center">Web Aplicattion: HTML, CSS, BOOTSTRAP, JAVASCRIPT and RESPONSIVE DESIGN</p>
+                           <div class="a">
+                            <a class="btn btn-dark" href="https://bradigson.github.io/" target="_BLANK" id="pro__a"><i class='bx bx-world' ></i> WebSide</a>
+                            <a class="btn btn-dark" href="https://github.com/Bradigson/Bradigson.github.io.git" target="_BLANK" id="pro__a"><i class='bx bxl-github'></i> Repository</a>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="proyect">
+                        <div class="prroyect-hover">
+                            <h2 class="text-white text-center">Proyectos</h2>
+                            <p class="text-white text-center">Web Aplicattion:</p>
+                           <div class="a">
+                            <a class="btn btn-dark" href="" id="pro__a"><i class='bx bx-world' ></i> WebSide</a>
+                            <a class="btn btn-dark" href="" id="pro__a"><i class='bx bxl-github'></i> Repository</a>
+                           </div>
+                        </div>
+                    </div>
+
+                    <div class="proyect">
+                        <div class="prroyect-hover">
+                            <h2 class="text-white text-center">Proyectos</h2>
+                            <p class="text-white text-center">Web Aplicattion:</p>
+                           <div class="a">
+                            <a class="btn btn-dark" href="" id="pro__a"><i class='bx bx-world' ></i> WebSide</a>
+                            <a class="btn btn-dark" href="" id="pro__a"><i class='bx bxl-github'></i> Repository</a>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+        
+                     
+            </article>
+        </section>
+      
+          
+
+            <!--Articulo5-->
+            <article class="sesion2__articulo5" id="myhobbies">
+                <h2 class="text-center" id="sesion2__articulo5-title">My Hobbies</h2>
+
+                <div id="cartas">
+                
+                    <div class="card text-center bg-info text-light" id="cart1">
+                        <div class="card-header"> <h3>Playing Piano</h3></div>
+                        <div class="card-body bg-light ">
+                            <div class="card-text text-dark">
+ 
+                               <p> I'm a musician, i can play the piano, i learned how to play it, about 7 years ago, and nowaday it bocame a hobby that i aplay when i want to chill-out, when i am not in a bad mood, when i get a bad day, or things are just getting rough. Playing piano is just like a door, which i use to scape from this world when i do not wnat to be in.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card text-center bg-danger text-light" id="cart1">
+                        <div class="card-header text-center"><h3>Programming</h3></div>
+                        <div class="card-body bg-light text-dark">
+                            <div class="card-text">
+
+                                <p>
+                                    Programming is something that i use to relax as well, i think, i enjoy creating things, coding what is on my mind, coding as a front-end developer is something that i feel pasionated about, it is one of my favorite.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card text-center bg-secondary text-light" id="cart1">
+                        <div class="card-header"><h3>Watching TV</h3></div>
+                        <div class="card-body bg-light text-dark">
+                            <div class="card-text">
+
+                            <p>    Hmmm watching tv isn't a hobby that could be my first choice when i want to do things that i like, but sometimes, it is, i watch some series on netflix or disney+, or i just watch a movie. By the way, the last but least, i watch youtube, learning how to upgrade my skill as a front-end developer, i do this one a lot. </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card text-center bg-success text-light" id="cart1">
+                        <div class="card-header"> <h3>Hanging Out</h3></div>
+                        <div class="card-body bg-light text-dark">
+                            <div class="card-text">
+                             <p>   Being out of door, expending time with  all friends is something that i like to much, i do really like to go out, go to the movie, go to eat, meet some others people around, that's amazing. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <article class="sesion3__articulo6" id="contact">
+                    <h2 class="text-center">CONTACT</h2>
+                    <p class="text-center text-muted">You can contact me through:</p>
+                    <div class="contact-icons">
+                        <div class="card" id="articul6_cart1">
+                            <div class="card-header text-danger text-center""><b>GMAIL</b></div>
+                            <div class="card-body">
+                              <a class="text-danger" href="https://mail.google.com/mail/u/2/#inbox" target=_BLANK ><i class='bx bx-envelope' data-toggle="tooltip" title="Gmail"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="card" id="articul6_cart1">
+                            <div class="card-header text-dark text-center"><b>FOLLOW ME</b></div>
+                            <div class="card-body">
+                                <a class="text-dark" href="https://github.com/settings/security" target="_BLANK"><i class="fab fa-github" data-toggle="tooltip" title="GitHub"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="card" id="articul6_cart1">
+                            <div class="card-header text-center text-primary"><b>CONTACT ME</b></div>
+                            <div class="card-body">
+                                <a href="https://www.linkedin.com/feed/" target="_BLANK"><i class='bx bxl-linkedin' data-toggle="tooltip" title="Linkedin"></i></a>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </article>
+              
+
+            </article>
+            
+
+               
+              <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+
+        </body>
+    
+</html>
